@@ -159,6 +159,11 @@ header .box-content {
   justify-content: space-between;
   flex-direction: column;
   padding: 0px 0px 100px 0px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) -0.25%,
+    #000000 91.04%
+  );
 }
 .box-content .contentInner .box-middle {
   color: #fff;
@@ -1184,11 +1189,7 @@ header .header-content {
   .box-content .contentInner {
     padding: 20px 0px;
     justify-content: space-between;
-    background: linear-gradient(
-      270deg,
-      rgba(0, 0, 0, 0) -0.25%,
-      #000000 91.04%
-    );
+   
   }
   .box-content .contentInner .box-middle {
     text-align: center;
