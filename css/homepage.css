@@ -884,7 +884,7 @@ header .header-content {
     font-size: 22px;
   }
   footer .menuItem .boxMenu {
-    margin-top: 24px;
+    margin-top: 12px;
   }
   footer .menuItem .boxMenu .menu-link {
     font-size: 18px;
@@ -897,7 +897,7 @@ header .header-content {
     height: unset;
   }
   footer .footerBottom {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   footer .footerBottom .menuFooterBottom .menu-item {
     font-size: 15px;
@@ -1361,5 +1361,8 @@ header .header-content {
   }
   .aboutCompany .investUs .hoverLong .hoverLink {
     font-size: 22px;
+  }
+  .benefits .content .boxImage{
+    display: none;
   }
 }
