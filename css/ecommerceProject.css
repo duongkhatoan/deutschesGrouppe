@@ -1,0 +1,256 @@
+.box-bg-top {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/project/banner.png);
+}
+
+.boxHeading {
+  padding: 44px 0px 44px 100px;
+  overflow: hidden;
+}
+.boxHeading .contentHeader {
+  align-items: center;
+}
+.boxHeading .contentHeader .boxHoverLong {
+  background-color: #000;
+  width: 270px;
+  transition: width 1s ease;
+  margin-left: 57px;
+  padding: 10px 20px;
+}
+.boxHeading .contentHeader .boxHoverLong a {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 83.5%;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.boxHeading.real .contentHeader .boxHoverLong {
+  width: 284px;
+}
+.boxHeading .contentHeader .boxHoverLong:hover {
+  width: 100%;
+}
+
+.ecommer {
+  border-top: 1px solid #000;
+}
+.ecommer .boxItem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 166px;
+  padding: 130px 250px;
+}
+.ecommer .boxItem .img {
+  width: 100%;
+  height: 100%;
+}
+.ecommer .boxItem .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ecommer .boxItem .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ecommer .boxItem .content .title a {
+  font-size: 40px;
+  line-height: 83.5%;
+  text-transform: uppercase;
+  color: #000;
+}
+.ecommer .boxItem .content .description {
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 140%;
+  margin: 30px 0px;
+}
+.ecommer .boxItem .content .more a {
+  color: #000;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 140.5%;
+  text-decoration-line: underline;
+}
+.ecommer .viozon {
+  background-color: #f2f2f2;
+}
+
+.info {
+  background-color: #f2f2f2;
+  padding: 125px 0px;
+}
+.info .listItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.info .listItem .item .couter {
+  margin-bottom: 15px;
+}
+.info .listItem .item .couter .counterNum {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+  /* line-height: 100%; */
+  text-transform: uppercase;
+}
+.info .listItem .item .couter .counterNum span {
+  font-size: 24px;
+}
+.info .listItem .item .title {
+  text-align: center;
+  font-size: 24px;
+  /* line-height: 100%; */
+  text-transform: uppercase;
+}
+.gallery {
+  padding: 130px 245px;
+}
+.gallery .boxLeft .img {
+  width: 100%;
+  height: 50%;
+}
+.gallery .boxLeft .img:first-child {
+  height: calc(50% - 32px);
+  margin-bottom: 32px;
+}
+.gallery .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery .boxRight .img {
+  width: 100%;
+  height: 100%;
+}
+.gallery .boxRight .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+  .ecommer .boxItem {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px 30px;
+  }
+  .boxHeading {
+    padding: 40px 30px;
+  }
+  .boxHeading .contentHeader .boxHoverLong {
+    margin-left: 0;
+    width: 100% !important;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .boxHeading .heading {
+    text-align: center;
+  }
+  .ecommer .boxItem .content .title a {
+    font-size: 30px;
+  }
+  .ecommer .boxItem .content .description {
+    margin: 15px 0px;
+  }
+  .info,
+  .gallery {
+    padding: 40px 30px;
+  }
+  .info .listItem {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .info .listItem .item .couter .counterNum {
+    font-size: 32px;
+  }
+  .info .listItem .item .title {
+    font-size: 15px;
+  }
+  .gallery .boxLeft {
+    margin-bottom: 32px;
+  }
+}
+
+/* Tablet devices (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ecommer .boxItem {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px 30px;
+  }
+  .boxHeading {
+    padding: 40px 30px;
+  }
+  .boxHeading .contentHeader .boxHoverLong {
+    margin-left: 0;
+    width: 100% !important;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .boxHeading .heading {
+    text-align: center;
+  }
+  .ecommer .boxItem .content .title a {
+    font-size: 30px;
+  }
+  .ecommer .boxItem .content .description {
+    margin: 15px 0px;
+  }
+  .info,
+  .gallery {
+    padding: 40px 30px;
+  }
+  .info .listItem {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .info .listItem .item .couter .counterNum {
+    font-size: 40px;
+  }
+  .info .listItem .item .title {
+    font-size: 20px;
+  }
+  .gallery .boxLeft {
+    margin-bottom: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 23px;
+  }
+  .gallery .boxLeft .img {
+    height: 100% !important;
+  }
+}
+
+/* Large devices (1024px and above) */
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .ecommer .boxItem {
+    gap: 30px;
+    padding: 40px 30px;
+  }
+  .boxHeading {
+    padding: 40px 30px;
+  }
+  .boxHeading .contentHeader .boxHoverLong {
+    margin-left: 0;
+    width: 100% !important;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .ecommer .boxItem .content .title a {
+    font-size: 30px;
+  }
+  .ecommer .boxItem .content .description {
+    margin: 15px 0px;
+  }
+  .gallery {
+    padding: 40px 30px;
+  }
+}
