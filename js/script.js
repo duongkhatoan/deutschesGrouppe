@@ -27,6 +27,15 @@ $(document).ready(function () {
     infinite: true,
     responsive: [
       {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 3000,
+        },
+      },
+      {
         breakpoint: 1025,
         settings: {
           slidesToShow: 3,
