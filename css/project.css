@@ -10,6 +10,7 @@
 .project .list-item .item {
   height: 883px;
   background-blend-mode: multiply;
+  filter: grayscale(100%);
 }
 .project .list-item .item1 {
   background: url(../images/project/ecommerce.png), lightgray 50% / cover no-repeat;
