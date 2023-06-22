@@ -931,10 +931,7 @@ header .header-content {
     align-items: center;
   }
   header .header-content .menu .menu-header {
-    font-size: 14px;
-  }
-  .box-content .arrow_box {
-    display: none;
+    font-size: 20px;
   }
 
   /* Custom menu in mobile */

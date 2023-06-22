@@ -371,8 +371,97 @@
 
 /* Tablet devices (768px - 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
+  .introduction .counterNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .introduction .counterNumber .item .counterNum{
+    font-size: 50px;
+  }
+  .weBuild .boxTitle{
+    padding-left: 50px;
+  }
+  .weBuild .content{
+    align-items: center;
+  }
+  .weBuild .content .boxButton .buttonHoverLong{
+    width: 100%;
+  }
+  .weBuild .contentSec .boxLeft .buildSlider .item .img{
+    height: 400px;
+  }
+  .weBuild .contentSec .boxRight{
+    margin-top: 20px;
+  }
+  .ourValue .boxRight .listGallery{
+    height: 400px;
+  }
+  .staff .lineWrapper{
+    margin: 40px 0px;
+  }
+  .staff .des{
+    font-size: 30px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .staff .executive .boxRight .title{
+    font-size: 30px;
+    text-align: center;
+  }
+  .staff .executive .arrow_box .arrow{
+    opacity: 0;
+  }
+  .menuNaviFooter .item .menuNav{
+    font-size: 30px;
+  }
 }
 
 /* Large devices (1024px and above) */
 @media (min-width: 1024px) and (max-width: 1600px) {
+  .introduction .counterNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .introduction .counterNumber .item .counterNum{
+    font-size: 50px;
+  }
+  .weBuild .boxTitle{
+    padding-left: 50px;
+  }
+  .weBuild .content{
+    align-items: center;
+  }
+  .weBuild .content .boxButton .buttonHoverLong{
+    width: 100%;
+  }
+  .weBuild .contentSec .boxLeft .buildSlider .item .img{
+    height: 400px;
+  }
+  .weBuild .contentSec .boxRight{
+    margin-top: 20px;
+  }
+  .staff .lineWrapper{
+    margin: 40px 0px;
+  }
+  .staff .des{
+    font-size: 30px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .staff .executive .boxRight .title{
+    font-size: 30px;
+    text-align: center;
+  }
+  .staff .executive .arrow_box .arrow{
+    opacity: 0;
+  }
+  .menuNaviFooter .item .menuNav{
+    font-size: 30px;
+  }
 }
