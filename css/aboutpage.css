@@ -219,10 +219,6 @@
   text-align: center;
   color: #ffffff;
   font-family: Inter;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
 .staff .listItem .item:hover .content {
   opacity: 1;
