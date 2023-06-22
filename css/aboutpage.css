@@ -336,12 +336,13 @@
   .staff .des {
     font-size: 30px;
     margin: 20px 0px;
+    text-align: center;
   }
   .staff .listItem.listLead {
     grid-template-columns: repeat(2, 1fr);
   }
   .staff .listItem .item .img {
-    height: 240px;
+    height: 350px;
   }
   .staff .lineWrapper {
     margin: 40px 0px;
