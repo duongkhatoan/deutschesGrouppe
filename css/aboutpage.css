@@ -364,7 +364,8 @@
     width: calc(20% - 18px);
   }
   .staff .executive .boxRight .title{
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
   }
 }
 
