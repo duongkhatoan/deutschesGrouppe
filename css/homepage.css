@@ -20,7 +20,7 @@ body {
 a {
   text-decoration: none;
 }
-.box-content .contentInner .box-middle .titleRoll{
+.box-content .contentInner .box-middle .titleRoll {
   width: 50%;
 }
 .boxContainer {
@@ -159,11 +159,7 @@ header .box-content {
   justify-content: space-between;
   flex-direction: column;
   padding: 0px 0px 100px 0px;
-  background: linear-gradient(
-    270deg,
-    rgba(0, 0, 0, 0) -0.25%,
-    #000000 91.04%
-  );
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) -0.25%, #000000 91.04%);
 }
 .box-content .contentInner .box-middle {
   color: #fff;
@@ -738,7 +734,7 @@ header .header-content {
 
 /* Mobile devices (up to 767px) */
 @media (max-width: 767px) {
-  .box-content .contentInner .box-middle .titleRoll{
+  .box-content .contentInner .box-middle .titleRoll {
     width: 100%;
   }
   .language-choose {
@@ -884,47 +880,8 @@ header .header-content {
   .event .boxContainer {
     margin: 40px 0px;
   }
-  footer .boxContainer {
-    padding: 40px 30px;
-  }
-  footer .boxContainer .col1 .description {
-    margin: 27px 0px 30px 0px;
-    font-size: 12px;
-  }
-  footer .menuItem .linkHead {
-    font-size: 22px;
-  }
-  footer .menuItem .boxMenu {
-    margin-top: 12px;
-  }
-  footer .menuItem .boxMenu .menu-link {
-    font-size: 18px;
-  }
-  footer .col1 .boxBrand {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
   header .box-content {
     height: unset;
-  }
-  footer .footerBottom {
-    margin-top: 20px;
-  }
-  footer .footerBottom .menuFooterBottom .menu-item {
-    font-size: 15px;
-  }
-  footer .footerBottom .menuFooterBottom {
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  footer .footerBottom .getInTouch {
-    margin-top: 20px;
-  }
-  footer .footerBottom .socialMenu .menuItem .item a > i {
-    font-size: 30px;
-  }
-  footer .footerBottom .socialMenu .menuItem {
-    justify-content: space-evenly;
   }
   header .header-content .menu {
     flex-direction: column;
@@ -953,7 +910,7 @@ header .header-content {
 
 /* Tablet devices (768px - 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .box-content .contentInner .box-middle .titleRoll{
+  .box-content .contentInner .box-middle .titleRoll {
     width: 100%;
   }
   .language-choose {
@@ -997,7 +954,7 @@ header .header-content {
     font-size: 40px;
     line-height: 44px;
   }
-  
+
   .box-content .contentInner .box-middle .titleRoll .title {
     font-size: 50px;
   }
@@ -1096,48 +1053,6 @@ header .header-content {
   .event .boxContainer {
     margin: 40px 0px;
   }
-  footer .boxContainer {
-    padding: 40px 30px;
-  }
-  footer .boxContainer .col1 .description {
-    margin: 27px 0px 30px 0px;
-    font-size: 12px;
-  }
-  footer .menuItem .linkHead {
-    font-size: 22px;
-  }
-  footer .menuItem .boxMenu {
-    margin-top: 24px;
-  }
-  footer .menuItem .boxMenu .menu-link {
-    font-size: 18px;
-  }
-  footer .col1 .boxBrand {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  header .box-content {
-    height: unset;
-  }
-  footer .footerBottom {
-    margin-top: 40px;
-  }
-  footer .footerBottom .menuFooterBottom .menu-item {
-    font-size: 15px;
-  }
-  footer .footerBottom .menuFooterBottom {
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  footer .footerBottom .getInTouch {
-    margin-top: 20px;
-  }
-  footer .footerBottom .socialMenu .menuItem .item a > i {
-    font-size: 30px;
-  }
-  footer .footerBottom .socialMenu .menuItem {
-    justify-content: space-evenly;
-  }
   header .header-content .menu .menu-header {
     font-size: 14px;
   }
@@ -1171,7 +1086,7 @@ header .header-content {
 
 /* Large devices (1024px and above) */
 @media (min-width: 1024px) and (max-width: 1600px) {
-  .box-content .contentInner .box-middle .titleRoll{
+  .box-content .contentInner .box-middle .titleRoll {
     width: 100%;
   }
   .language-choose {
@@ -1186,7 +1101,6 @@ header .header-content {
   .box-content .contentInner {
     padding: 20px 0px;
     justify-content: space-between;
-   
   }
   .box-content .contentInner .box-middle {
     text-align: center;
@@ -1302,48 +1216,6 @@ header .header-content {
   .event .boxContainer {
     margin: 40px 0px;
   }
-  footer .boxContainer {
-    padding: 40px 30px;
-  }
-  footer .boxContainer .col1 .description {
-    margin: 27px 0px 30px 0px;
-    font-size: 12px;
-  }
-  footer .menuItem .linkHead {
-    font-size: 22px;
-  }
-  footer .menuItem .boxMenu {
-    margin-top: 24px;
-  }
-  footer .menuItem .boxMenu .menu-link {
-    font-size: 18px;
-  }
-  footer .col1 .boxBrand {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  header .box-content {
-    height: unset;
-  }
-  footer .footerBottom {
-    margin-top: 40px;
-  }
-  footer .footerBottom .menuFooterBottom .menu-item {
-    font-size: 15px;
-  }
-  footer .footerBottom .menuFooterBottom {
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  footer .footerBottom .getInTouch {
-    margin-top: 20px;
-  }
-  footer .footerBottom .socialMenu .menuItem .item a > i {
-    font-size: 30px;
-  }
-  footer .footerBottom .socialMenu .menuItem {
-    justify-content: space-evenly;
-  }
   header .header-content .menu .menu-header {
     font-size: 18px;
   }
@@ -1373,7 +1245,7 @@ header .header-content {
   .aboutCompany .investUs .hoverLong .hoverLink {
     font-size: 22px;
   }
-  .benefits .content .boxImage{
+  .benefits .content .boxImage {
     display: none;
   }
 }

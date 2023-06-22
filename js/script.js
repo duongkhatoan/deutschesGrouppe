@@ -78,6 +78,7 @@ $(document).ready(function () {
     slidesToScroll: 1,
     infinite: true,
     responsive: [
+      
       {
         breakpoint: 1025,
         settings: {

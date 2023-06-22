@@ -627,6 +627,9 @@ footer .footerBottom .socialMenu .menuItem .item a:hover i {
 
 /* Large devices (1024px and above) */
 @media (min-width: 1024px) and (max-width: 1600px) {
+  .box-content .arrow_box .arrow {
+    opacity: 1;
+  }
   .language-choose {
     padding: 11px 10px;
   }
@@ -653,7 +656,7 @@ footer .footerBottom .socialMenu .menuItem .item a:hover i {
     font-size: 18px;
   }
   footer .col1 .boxBrand {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2,1fr);
     gap: 10px;
   }
   .box-bg-top .box-content {
