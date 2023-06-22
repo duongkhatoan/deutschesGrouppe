@@ -32,6 +32,9 @@
   line-height: 84.5%;
   text-transform: uppercase;
 }
+.project .list-item a:hover{
+  text-decoration: none;
+}
 
 /* Mobile devices (up to 767px) */
 @media (max-width: 767px) {
