@@ -101,6 +101,10 @@ header .header-content .searchBox .boxSearch {
   align-items: center;
   justify-content: center;
   border: none;
+  color: #000;
+}
+header .header-content .searchBox .boxSearch:hover{
+  text-decoration: none;
 }
 .header-slider .item .img {
   width: 100%;

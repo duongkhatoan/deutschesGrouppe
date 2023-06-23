@@ -142,6 +142,10 @@ a {
   align-items: center;
   justify-content: center;
   border: none;
+  color: #000;
+}
+.box-bg-top .header-content .searchBox .boxSearch:hover{
+  text-decoration: none;
 }
 .box-bg-top .boxContent {
   display: flex;
