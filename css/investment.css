@@ -1,0 +1,65 @@
+.box-bg-top {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/invesment/banner.png);
+}
+/* .boxCollapse {
+  padding: 81px 100px;
+} */
+.venture {
+  background-color: #d9d9d9;
+}
+.private{
+    background-color: #f2f2f2;
+}
+.boxCollapse .headingCollapse {
+  color: #000;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 83.5%;
+  text-transform: uppercase;
+  padding: 80px 100px;
+}
+.boxCollapse .content {
+  /* margin-top: 82px; */
+  padding: 80px 100px;
+}
+/* .boxCollapse .content .img{
+    width: 100%;
+    height: 100%;
+} */
+.boxCollapse .content .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.boxCollapse .content .boxContent {
+  margin: 100px 0px 0px 0px;
+}
+.boxCollapse .content .boxContent .boxLeft .item {
+  padding: 27px 0px;
+  border-top: 1px solid #000;
+}
+.boxCollapse .content .boxContent .boxLeft .item .title {
+  color: #000;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 83.5%;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+.boxCollapse .content .boxContent .boxLeft .item .description {
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 140%;
+}
+.boxCollapse .content .boxContent .boxRight .para {
+  overflow: hidden;
+  color: var(--primary, #000);
+  text-overflow: ellipsis;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 140%;
+}
