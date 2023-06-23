@@ -112,7 +112,7 @@ a {
   transition: 0.5s ease;
 }
 .box-bg-top .header-content .menu .menu-header.active {
-  background-color: #fff;
+  background-color: #fff!important;
   padding-left: 10px;
   color: #000;
 }
