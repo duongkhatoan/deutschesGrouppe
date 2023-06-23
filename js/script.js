@@ -78,7 +78,6 @@ $(document).ready(function () {
     slidesToScroll: 1,
     infinite: true,
     responsive: [
-      
       {
         breakpoint: 1025,
         settings: {
@@ -115,4 +114,22 @@ $(document).ready(function () {
   });
 
   // {End About us}
+
+  // scroll to top
+
+  $("#back-to-top").click(function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 0) {
+      $(".backtop").css("opacity", 1);
+    } else {
+      $(".backtop").css("opacity", 0);
+    }
+  });
+
+  // end scroll
 });
