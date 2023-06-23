@@ -62,4 +62,7 @@
 
 /* Large devices (1024px and above) */
 @media (min-width: 1024px) and (max-width: 1600px) {
+  .boxHeading .contentHeader .boxHoverLong a{
+    font-size: 18px;
+  }
 }
