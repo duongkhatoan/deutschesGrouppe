@@ -1109,7 +1109,7 @@ header .header-content {
     height: unset;
   }
   .header-slider .item .img {
-    height: 500px;
+    height: 100vh;
   }
   .box-content .contentInner .box-middle .titleTop {
     font-size: 25px;
