@@ -282,10 +282,12 @@ footer .footerBottom .getInTouch {
   line-height: 28px;
   color: #ffffff;
   margin-bottom: 21px;
+  text-align: right;
 }
 footer .footerBottom .socialMenu .menuItem {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 20px;
 }
 footer .footerBottom .socialMenu .menuItem .item a > i {
   color: gray;
