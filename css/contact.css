@@ -1,7 +1,7 @@
 .box-bg-top {
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(../img/contactus/banner.png);
+    url(../images/contactus/banner.png);
 }
 .contactUs .content {
   display: grid;
