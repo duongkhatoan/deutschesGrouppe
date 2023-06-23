@@ -520,7 +520,7 @@ footer .footerBottom .socialMenu .menuItem .item a:hover i {
     display: none;
     overflow: hidden;
     background-color: #000;
-    top: 40px;
+    top: 50px;
     width: 100%;
     left: 0;
   }
@@ -580,7 +580,7 @@ footer .footerBottom .socialMenu .menuItem .item a:hover i {
     font-size: 18px;
   }
   footer .col1 .boxBrand {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     gap: 10px;
   }
   header .box-content {

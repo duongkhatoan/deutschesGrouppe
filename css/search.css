@@ -26,19 +26,22 @@
 header .header-content {
   padding: 29px 100px;
 }
-header .header-content .logo {
+header .header-content .navigation {
+  align-items: center;
+}
+header .header-content .navigation .logo {
   width: 169px;
 }
-header .header-content .logo img {
+header .header-content .navigation .logo img {
   width: 100%;
   object-fit: cover;
 }
-header .header-content .menu {
+header .header-content .navigation .menu {
   color: #fff;
   display: flex;
   justify-content: space-between;
 }
-header .header-content .menu .menu-header {
+header .header-content .navigation .menu .menu-header {
   font-weight: 600;
   font-size: 24px;
   line-height: 83.5%;
@@ -47,12 +50,12 @@ header .header-content .menu .menu-header {
   padding: 15px 10px 15px 0px;
   transition: 0.5s ease;
 }
-header .header-content .menu .menu-header.active {
+header .header-content .navigation .menu .menu-header.active {
   background-color: #fff;
   padding-left: 10px;
   color: #000;
 }
-header .header-content .menu .menu-header:hover {
+header .header-content .navigation .menu .menu-header:hover {
   background-color: #fff;
   padding-left: 10px;
   color: #000;
@@ -94,15 +97,65 @@ header.searchPage .menu-trigger span {
 }
 /* Mobile devices (up to 767px) */
 @media (max-width: 767px) {
-    header .header-content{
-        padding: 10px 30px;
-    }
+  header .header-content {
+    padding: 10px;
+  }
+  .search {
+    padding: 40px 30px;
+  }
+  .header-content .navigation .menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  header .header-content .navigation .menu .menu-header {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+  header .header-content .navigation .logo {
+    width: 125px;
+  }
+  .search .boxSearch {
+    margin-top: 30px;
+  }
 }
 
 /* Tablet devices (768px - 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
+  header .header-content {
+    padding: 10px;
+  }
+  header .header-content .navigation .menu .menu-header {
+    font-size: 20px;
+  }
+  header .header-content .navigation .logo {
+    width: 125px;
+  }
+  .search {
+    padding: 40px 30px;
+  }
+  .search .boxSearch {
+    margin-top: 40px;
+  }
 }
 
 /* Large devices (1024px and above) */
 @media (min-width: 1024px) and (max-width: 1600px) {
+  header .header-content {
+    padding: 10px;
+  }
+  header .header-content .navigation .menu .menu-header {
+    font-size: 20px;
+  }
+  header .header-content .navigation .logo {
+    width: 125px;
+  }
+  .search {
+    padding: 40px 30px;
+  }
+  .search .boxSearch {
+    margin-top: 40px;
+  }
 }
