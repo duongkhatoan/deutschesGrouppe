@@ -550,6 +550,10 @@ footer .footerBottom .socialMenu .menuItem .item a:hover i {
   }
   footer .footerBottom .getInTouch {
     margin-top: 20px;
+    text-align: center;
+  }
+  footer .footerBottom .socialMenu .menuItem{
+    justify-content: center;
   }
   footer .footerBottom .socialMenu .menuItem .item a > i {
     font-size: 30px;
